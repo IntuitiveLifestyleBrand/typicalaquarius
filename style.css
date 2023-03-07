@@ -1,0 +1,202 @@
+/* Mobile Design First */
+body {
+  background-color: aqua;
+  justify-content: center;
+  margin-top: -50px;
+}
+p{
+  color: white;
+  padding-top: 10px;
+}
+a:link{
+  color: white;
+  text-decoration: none;
+}
+a:visited{
+  color: white;
+  text-decoration: none;
+}
+#mainlogoDiv{
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  font-size: 3em; 
+  font-weight: 600; 
+  font-family:Bratsy;
+  margin-bottom: -5px;
+}
+#mainimgDiv{
+  width: 100%;
+  text-align: center;
+  border-radius: 1em;
+}
+#mainlogoHeader{
+  width: 100%;
+  text-align: center;
+  font-size: 1em;
+  margin-top: -20px;
+}
+ #variousGoods{
+  margin-bottom: 1%;
+ }
+ #goodsDiv{
+  background-color: #a45ee5;
+  width: 40%;
+  height: 40px;
+  border-radius: 20px; 
+  text-align: left;
+  margin: 0 auto;
+ }
+ #formDiv2{
+  text-align: center;
+  margin: 0 auto;
+ }
+ #customeForm{
+  text-align: center;
+  margin-left: -10%;
+ }
+/*INSTALLED FONTS*/
+@font-face {
+    font-family: Transducer;
+    src: url(./fonts/transducer-medium-italic.otf);
+  }
+  @font-face {
+    font-family: InterVariable;
+    src: url(./fonts/Inter-VariableFont_slnt\,wght.ttf);
+  }
+  @font-face {
+    font-family: Candy;
+    src: url(./fonts/CANDY___.otf);
+  }
+  @font-face {
+    font-family: Bratsy;
+    src: url(./fonts/Bratsyy\ Script\ Demo.otf);
+  }
+/*MEDIA QUERIES*/
+
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 320px) {
+  #mainlogoDiv {
+    font-size: 15px;
+    margin-top: 7%;
+  }
+  #mainimgDiv{
+    width: 100%;
+    text-align: center;
+    border-radius: 1em;
+    margin-top: 1%;
+ }
+  #goodsDiv {
+    display: block;
+    width: 100%;
+    background-color: #a45ee5;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 360px) {
+  #mainlogoDiv {
+    font-size: 15px;
+    margin-top: 7%;
+  }
+  #mainimgDiv{
+    width: 100%;
+    text-align: center;
+    border-radius: 1em;
+    margin-top: 1%;
+ }
+  #goodsDiv {
+    display: block;
+    width: 100%;
+    background-color: #a45ee5;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 414px) {
+  #mainlogoDiv {
+    font-size: 15px;
+    margin-top: 5%;
+  }
+  #mainimgDiv{
+    width: 100%;
+    text-align: center;
+    border-radius: 1em;
+    margin-top: 1%;
+ }
+  #goodsDiv {
+    width: 100%;
+    background-color: #a45ee5;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #mainlogoDiv {
+    font-size: 15px;
+    margin-top: 7%;
+    margin-bottom: -10px;
+  }
+  #mainimgDiv{
+    width: 100%;
+    text-align: center;
+    border-radius: 1em;
+    
+ }
+  #goodsDiv {
+    width: 100%;
+    background-color: #a45ee5;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #mainlogoDiv {
+    font-size: 25px;
+    margin-top: 7%;
+  }
+  #mainimgDiv{
+    width: 100%;
+    text-align: center;
+    border-radius: 1em;
+    margin-top: 1%;
+ }
+  #goodsDiv {
+    display: block;
+    width: 100%;
+    background-color: #a45ee5;
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #mainlogoDiv {
+    font-size: 25px;
+    margin-top: 7%;
+  }
+  #mainimgDiv{
+    width: 100%;
+    text-align: center;
+    border-radius: 1em;
+    margin-top: 1%;
+ }
+  #goodsDiv {
+    display: block;
+    width: 100%;
+    background-color: #a45ee5;
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 800px) {
+  #mainlogoDiv {
+    font-size: 12px;
+    margin-top: 7%;
+  }
+  #mainimgDiv{
+    width: 100%;
+    text-align: center;
+    border-radius: 1em;
+    margin-top: 1%;
+ }
+  #goodsDiv {
+    display: block;
+    width: 100%;
+    background-color: #a45ee5;
+    font-size: 12px;
+  }
+}
